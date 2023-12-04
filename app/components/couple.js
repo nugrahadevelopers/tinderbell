@@ -53,10 +53,12 @@ const Couple = () => {
                             >
                                 <h3 className={clsx('text-lg font-bold mb-4')}>GROOM</h3>
                                 <p className={clsx('text-gray-200 leading-loose mb-4')}>
-                                    Hello everyone, I, Reno, am happy to share the news that I have
-                                    proposed to a woman who brings happiness and love into my life.
-                                    Believing in the beauty of true love, I am sure this will be a
-                                    glimpse of heaven for both of us.
+                                    Hello everyone, Reno's here, I want to tell you that i have
+                                    found my perfect partner, Our love story has been an unexpected
+                                    story. You can read our journey in the next section. Btw as we
+                                    take the next step on this incredible journey, we want our
+                                    friends and family to be by our side. Your presence would mean
+                                    the world to us.
                                 </p>
                                 <p className={clsx(borel.className)}>~ Reno</p>
                             </div>
@@ -65,7 +67,7 @@ const Couple = () => {
                     <div className={clsx('w-full mt-20')}>
                         <div
                             className={clsx(
-                                'flex flex-col md:flex-row-reverse shadow hover:bg-neutral-100 dark:bg-neutral-800 dark:hover:bg-neutral-700',
+                                'flex flex-col md:flex-row-reverse shadow hover:bg-neutral-100 dark:bg-neutral-800 dark:hover:bg-neutral-700 md:h-[358px]',
                             )}
                         >
                             <div
@@ -92,11 +94,10 @@ const Couple = () => {
                             >
                                 <h3 className={clsx('text-lg font-bold mb-4')}>BRIDE</h3>
                                 <p className={clsx('text-gray-200 leading-loose mb-4')}>
-                                    Hallo everyone, with a sense of happiness, I, Anggi, am
-                                    delighted to share the wonderful news that I have accepted a
-                                    proposal from someone who fills my days with happiness and love.
-                                    I am confident that this relationship will be a paradise on
-                                    earth for me. I hope you guys can celebrating with us.
+                                    Hallo everyone, with Bismillah, I'm Anggi, finally I have
+                                    accepted a proposal from someone who always fills my days with
+                                    love and happiness. So please celebrating this happiness with
+                                    us.
                                 </p>
                                 <p className={clsx(borel.className)}>~ Anggi</p>
                             </div>

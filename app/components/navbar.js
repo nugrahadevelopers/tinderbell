@@ -1,5 +1,7 @@
 import clsx from 'clsx';
 import { Borel, Dosis, Cormorant_Garamond } from 'next/font/google';
+import Image from 'next/image';
+import logo from '@/public/assets/img/tb-logo.png';
 
 const dosis = Dosis({ weight: '700', subsets: ['latin'] });
 const borel = Borel({ weight: '400', subsets: ['latin'] });
@@ -18,7 +20,15 @@ const Navbar = () => {
                 )}
             >
                 <div className={'w-full flex items-center justify-between md:gap-3'}>
-                    <div className={clsx(greatVibes.className, 'text-2xl md:text-5xl')}>RA</div>
+                    <div className={clsx(greatVibes.className, 'text-2xl md:text-5xl')}>
+                        <Image
+                            src={logo.src}
+                            alt={'logo'}
+                            width={52}
+                            height={52}
+                            className={clsx('w-[18px] md:w-[52px]')}
+                        />
+                    </div>
                     <div
                         className={clsx(borel.className, 'flex md:hidden text-[11px] italic pt-3')}
                     >

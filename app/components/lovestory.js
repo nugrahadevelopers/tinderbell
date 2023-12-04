@@ -40,8 +40,9 @@ const LoveStory = () => {
                                     on October 20th, 2022
                                 </time>
                                 <p className='mb-4 text-base font-normal text-neutral-500 dark:text-neutral-400'>
-                                    We match on Tinder, and after seven days running, we decided to
-                                    meet at cinema.
+                                    Around Oct, 2022 we match on dating app and accidentally have
+                                    same taste of movie, so we decide to going to movies and yeah
+                                    that's how we meet.
                                 </p>
                             </li>
                             <li className='mb-10 ms-6'>

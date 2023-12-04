@@ -1,16 +1,21 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import useSound from 'use-sound';
 import clsx from 'clsx';
 
 const BackgroundSound = () => {
     const [isPlaying, setIsPlaying] = useState(false);
-    const [play, { stop }] = useSound('/assets/audio/audio.mp3');
+    const [play, { pause, stop }] = useSound('/assets/audio/audio.mp3');
 
     function playSong() {
         setIsPlaying(true);
         play();
+    }
+
+    function pauseSong() {
+        setIsPlaying(false);
+        pause();
     }
 
     function stopSong() {
@@ -18,18 +23,20 @@ const BackgroundSound = () => {
         stop();
     }
 
-    // useEffect(() => {
-    //     return () => {
-    //         audio.pause();
-    //     };
-    // }, []);
+    useEffect(() => {
+        playSong();
+
+        return () => {
+            stopSong();
+        };
+    }, []);
 
     return (
         <div
             className={clsx(
                 'fixed bottom-3 right-3 border border-neutral-400 bg-neutral-400 bg-opacity-30 p-2 text-white text-xl cursor-pointer',
             )}
-            onClick={isPlaying ? stopSong : playSong}
+            onClick={isPlaying ? pauseSong : playSong}
         >
             {isPlaying ? (
                 <svg
