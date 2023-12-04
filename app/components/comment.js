@@ -50,9 +50,15 @@ const Comment = () => {
                         <p>Mohon Doa dan Restu</p>
                     </div>
                     <div className={clsx('w-full mt-20')}>
-                        <div className='max-w-2xl mx-auto px-4'>
+                        <div className='max-w-2xl mx-auto px-4 mb-10 md:mb-20'>
                             <CommentForm onSubmit={handleCommentSubmit} />
-                            <Commentlist data={data} />
+                            <div className={clsx('h-[400px] overflow-y-auto')}>
+                                <Commentlist data={data} />
+                            </div>
+                        </div>
+                        <div className={clsx('flex flex-col items-center justify-center')}>
+                            <p className={clsx('text-4xl font-bold')}>#TINDERBELL</p>
+                            <p>From Tinder To Wedding Bell</p>
                         </div>
                     </div>
                 </div>
