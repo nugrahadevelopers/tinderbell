@@ -8,7 +8,8 @@ const poppins = Poppins({ weight: '300', subsets: ['latin'] });
 
 export const metadata = {
     title: 'Reno & Anggi Wedding',
-    description: 'Tinderbell: From Tinder to Wedding Bell',
+    description:
+        'Hello, this is our wedding invitation. As we take the next step on this incredible journey. Your presence would mean the world to us. #Tinderbell, From Tinder to Wedding Bell',
 };
 
 const RootLayout = ({ children }) => {
