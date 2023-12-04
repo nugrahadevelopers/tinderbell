@@ -51,7 +51,7 @@ const TheEvent = () => {
                                         'mb-3 text-sm font-normal text-neutral-700 dark:text-neutral-400 flex flex-row items-center gap-2',
                                     )}
                                 >
-                                    <FaClock /> 31 Nov 2023, 8AM - 9AM
+                                    <FaClock /> 31 Des 2023, 8AM - 9AM
                                 </p>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ const TheEvent = () => {
                                         'mb-3 text-sm font-normal text-neutral-700 dark:text-neutral-400 flex flex-row items-center gap-2',
                                     )}
                                 >
-                                    <FaClock /> 31 Nov 2023, 9AM - 12AM
+                                    <FaClock /> 31 Des 2023, 9AM - 12PM
                                 </p>
                             </div>
                         </div>

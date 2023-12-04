@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import clsx from 'clsx';
 
-const CountDownTimer = ({ targetDate = 'Dec 31, 2023 07:59:59' }) => {
+const CountDownTimer = ({ targetDate = 'Dec 31, 2023 00:00:00' }) => {
     const calculateTimeLeft = () => {
         const now = new Date().getTime();
         const targetTime = new Date(targetDate).getTime();
