@@ -11,7 +11,7 @@ const borel = Borel({ weight: '400', subsets: ['latin'] });
 const Couple = () => {
     return (
         <element name={'couple'} className={clsx('min-h-screen')}>
-            <div className={clsx('container mx-auto')}>
+            <div className={clsx('container mx-auto bg-black')}>
                 <div className={clsx('min-h-screen flex flex-col items-center justify-center p-5')}>
                     <div className={clsx('w-full text-center mt-20')}>
                         <h2
@@ -26,7 +26,7 @@ const Couple = () => {
                     <div className={clsx('w-full mt-20')}>
                         <div
                             className={clsx(
-                                'flex flex-col md:flex-row shadow hover:bg-neutral-100 dark:bg-neutral-800 dark:hover:bg-neutral-700',
+                                'flex flex-col md:flex-row shadow bg-neutral-800 hover:bg-neutral-700',
                             )}
                         >
                             <div
@@ -48,7 +48,7 @@ const Couple = () => {
                             </div>
                             <div
                                 className={clsx(
-                                    'w-full md:w-1/2 md:border-t border-b border-r border-neutral-200 px-5 py-6 md:px-8 md:py-10 dark:border-neutral-700',
+                                    'w-full md:w-1/2 md:border-t border-b border-r px-5 py-6 md:px-8 md:py-10 border-neutral-700 text-white',
                                 )}
                             >
                                 <h3 className={clsx('text-lg font-bold mb-4')}>GROOM</h3>
@@ -67,7 +67,7 @@ const Couple = () => {
                     <div className={clsx('w-full mt-20')}>
                         <div
                             className={clsx(
-                                'flex flex-col md:flex-row-reverse shadow hover:bg-neutral-100 dark:bg-neutral-800 dark:hover:bg-neutral-700 md:h-[358px]',
+                                'flex flex-col md:flex-row-reverse shadow bg-neutral-800 hover:bg-neutral-700 md:h-[358px]',
                             )}
                         >
                             <div
@@ -89,7 +89,7 @@ const Couple = () => {
                             </div>
                             <div
                                 className={clsx(
-                                    'w-full md:w-1/2 md:border-t border-b border-l border-neutral-200 px-5 py-6 md:px-8 md:py-10 dark:border-neutral-700',
+                                    'w-full md:w-1/2 md:border-t border-b border-l px-5 py-6 md:px-8 md:py-10 border-neutral-700 text-white',
                                 )}
                             >
                                 <h3 className={clsx('text-lg font-bold mb-4')}>BRIDE</h3>

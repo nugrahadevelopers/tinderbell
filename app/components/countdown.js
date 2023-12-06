@@ -20,7 +20,7 @@ const CountDown = () => {
                     backgroundSize: 'cover',
                 }}
             >
-                <div className={clsx('w-full h-full bg-black bg-opacity-80 mt-20')}>
+                <div className={clsx('w-full h-full bg-black bg-opacity-80 mt-20 text-white')}>
                     <div className={clsx('h-full container mx-auto')}>
                         <div
                             className={clsx(

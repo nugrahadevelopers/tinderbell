@@ -56,7 +56,9 @@ const Comment = () => {
                                 <Commentlist data={data} />
                             </div>
                         </div>
-                        <div className={clsx('flex flex-col items-center justify-center')}>
+                        <div
+                            className={clsx('flex flex-col items-center justify-center text-white')}
+                        >
                             <p className={clsx('text-4xl font-bold')}>#TINDERBELL</p>
                             <p>From Tinder To Wedding Bell</p>
                         </div>

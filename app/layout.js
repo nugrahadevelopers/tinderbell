@@ -15,7 +15,7 @@ export const metadata = {
 const RootLayout = ({ children }) => {
     return (
         <html lang='en'>
-            <body className={clsx(poppins.className)}>
+            <body className={clsx(poppins.className, 'bg-black')}>
                 <Header />
 
                 {children}

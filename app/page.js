@@ -8,10 +8,11 @@ import TheEvent from '@/app/components/theevent';
 import Comment from '@/app/components/comment';
 import DressCode from '@/app/components/dresscode';
 import BackgroundSound from '@/app/components/backgroundsound';
+import clsx from 'clsx';
 
 const Home = () => {
     return (
-        <main>
+        <main className={clsx('bg-black')}>
             <Hero />
             <Couple />
             <Countdown />

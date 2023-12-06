@@ -22,24 +22,22 @@ const LoveStory = () => {
                         </h2>
                     </div>
                     <div className={clsx('w-full mt-20')}>
-                        <ol className='relative border-s border-neutral-200 dark:border-neutral-700'>
+                        <ol className='relative border-s border-neutral-200'>
                             <li className='mb-10 ms-6'>
                                 <span
                                     className={clsx(
-                                        'absolute flex items-center justify-center w-6 h-6 bg-neutral-100 rounded-full -start-3 dark:bg-neutral-900',
+                                        'absolute flex items-center justify-center w-6 h-6 bg-neutral-100 rounded-full -start-3',
                                     )}
                                 >
-                                    <IoHeart
-                                        className={clsx('text-neutral-800 dark:text-neutral-300')}
-                                    />
+                                    <IoHeart className={clsx('text-neutral-800')} />
                                 </span>
-                                <h3 className='flex items-center mb-1 text-lg font-semibold text-neutral-900 dark:text-white'>
+                                <h3 className='flex items-center mb-1 text-lg font-semibold text-white'>
                                     FIRST MEET
                                 </h3>
-                                <time className='block mb-2 text-sm font-normal leading-none text-neutral-400 dark:text-neutral-500'>
+                                <time className='block mb-2 text-sm font-normal leading-none text-neutral-500'>
                                     on October 20th, 2022
                                 </time>
-                                <p className='mb-4 text-base font-normal text-neutral-500 dark:text-neutral-400'>
+                                <p className='mb-4 text-base font-normal text-neutral-400'>
                                     Around Oct, 2022 we match on dating app and accidentally have
                                     same taste of movie, so we decide to going to movies and yeah
                                     that's how we meet.
@@ -48,20 +46,18 @@ const LoveStory = () => {
                             <li className='mb-10 ms-6'>
                                 <span
                                     className={clsx(
-                                        'absolute flex items-center justify-center w-6 h-6 bg-neutral-100 rounded-full -start-3 dark:bg-neutral-900',
+                                        'absolute flex items-center justify-center w-6 h-6 bg-neutral-100 rounded-full -start-3',
                                     )}
                                 >
-                                    <IoHeart
-                                        className={clsx('text-neutral-800 dark:text-neutral-300')}
-                                    />
+                                    <IoHeart className={clsx('text-neutral-800')} />
                                 </span>
-                                <h3 className='flex items-center mb-1 text-lg font-semibold text-neutral-900 dark:text-white'>
+                                <h3 className='flex items-center mb-1 text-lg font-semibold text-white'>
                                     FIRST DATE
                                 </h3>
-                                <time className='block mb-2 text-sm font-normal leading-none text-neutral-400 dark:text-neutral-500'>
+                                <time className='block mb-2 text-sm font-normal leading-none text-neutral-500'>
                                     on December 4th, 2022
                                 </time>
-                                <p className='mb-4 text-base font-normal text-neutral-500 dark:text-neutral-400'>
+                                <p className='mb-4 text-base font-normal text-neutral-400'>
                                     After 2 months of getting to know each other, precisely in
                                     December, we decided to enter into a more serious relationship.
                                 </p>
@@ -69,20 +65,18 @@ const LoveStory = () => {
                             <li className='mb-10 ms-6'>
                                 <span
                                     className={clsx(
-                                        'absolute flex items-center justify-center w-6 h-6 bg-neutral-100 rounded-full -start-3 dark:bg-neutral-900',
+                                        'absolute flex items-center justify-center w-6 h-6 bg-neutral-100 rounded-full -start-3',
                                     )}
                                 >
-                                    <IoHeart
-                                        className={clsx('text-neutral-800 dark:text-neutral-300')}
-                                    />
+                                    <IoHeart className={clsx('text-neutral-800')} />
                                 </span>
-                                <h3 className='flex items-center mb-1 text-lg font-semibold text-neutral-900 dark:text-white'>
+                                <h3 className='flex items-center mb-1 text-lg font-semibold text-white'>
                                     PROPOSAL
                                 </h3>
-                                <time className='block mb-2 text-sm font-normal leading-none text-neutral-400 dark:text-neutral-500'>
+                                <time className='block mb-2 text-sm font-normal leading-none text-neutral-500'>
                                     on August 26th, 2023
                                 </time>
-                                <p className='mb-4 text-base font-normal text-neutral-500 dark:text-neutral-400'>
+                                <p className='mb-4 text-base font-normal text-neutral-400'>
                                     Finally, we decided and agreed to take it to the next level by
                                     moving towards marriage. The man's side proposed to the woman's
                                     side, expressing his commitment, and we selected the day and

@@ -23,7 +23,7 @@ const TheEvent = () => {
                         </h2>
                     </div>
                     <div className={clsx('w-full mt-20')}>
-                        <div className='flex flex-col items-center bg-white border border-neutral-200 shadow md:flex-row hover:bg-neutral-100 dark:border-neutral-700 dark:bg-neutral-800 dark:hover:bg-neutral-700'>
+                        <div className='flex flex-col items-center border shadow md:flex-row border-neutral-700 bg-neutral-800 hover:bg-neutral-700'>
                             <div className={clsx('w-full md:w-1/2')}>
                                 <Image
                                     width={0}
@@ -35,12 +35,12 @@ const TheEvent = () => {
                                 />
                             </div>
                             <div className='w-full md:w-1/2 flex flex-col justify-between p-4 leading-normal'>
-                                <h5 className='mb-2 text-2xl font-bold tracking-tight text-neutral-900 dark:text-white'>
+                                <h5 className='mb-2 text-2xl font-bold tracking-tight text-white'>
                                     LAMARAN
                                 </h5>
                                 <p
                                     className={clsx(
-                                        'mb-3 text-sm font-normal text-neutral-700 dark:text-neutral-400 flex flex-row items-center gap-2',
+                                        'mb-3 text-sm font-normal text-neutral-400 flex flex-row items-center gap-2',
                                     )}
                                 >
                                     <FaLocationDot /> Jl. PB Sudirman RT 03 RW 05 Desa Panti, Jember
@@ -48,7 +48,7 @@ const TheEvent = () => {
                                 </p>
                                 <p
                                     className={clsx(
-                                        'mb-3 text-sm font-normal text-neutral-700 dark:text-neutral-400 flex flex-row items-center gap-2',
+                                        'mb-3 text-sm font-normal text-neutral-400 flex flex-row items-center gap-2',
                                     )}
                                 >
                                     <FaClock /> 31 Des 2023, 8AM - 9AM
@@ -57,7 +57,7 @@ const TheEvent = () => {
                         </div>
                     </div>
                     <div className={clsx('w-full mt-16')}>
-                        <div className='flex flex-col items-center bg-white border border-neutral-200 shadow md:flex-row-reverse hover:bg-neutral-100 dark:border-neutral-700 dark:bg-neutral-800 dark:hover:bg-neutral-700'>
+                        <div className='flex flex-col items-center border shadow md:flex-row-reverse border-neutral-700 bg-neutral-800 hover:bg-neutral-700'>
                             <div className={clsx('w-full md:w-1/2')}>
                                 <Image
                                     width={0}
@@ -69,12 +69,12 @@ const TheEvent = () => {
                                 />
                             </div>
                             <div className='w-full md:w-1/2 flex flex-col justify-between p-4 leading-normal'>
-                                <h5 className='mb-2 text-2xl font-bold tracking-tight text-neutral-900 dark:text-white'>
+                                <h5 className='mb-2 text-2xl font-bold tracking-tight text-white'>
                                     AKAD
                                 </h5>
                                 <p
                                     className={clsx(
-                                        'mb-3 text-sm font-normal text-neutral-700 dark:text-neutral-400 flex flex-row items-center gap-2',
+                                        'mb-3 text-sm font-normal text-neutral-400 flex flex-row items-center gap-2',
                                     )}
                                 >
                                     <FaLocationDot /> Jl. PB Sudirman RT 03 RW 05 Desa Panti, Jember
@@ -82,7 +82,7 @@ const TheEvent = () => {
                                 </p>
                                 <p
                                     className={clsx(
-                                        'mb-3 text-sm font-normal text-neutral-700 dark:text-neutral-400 flex flex-row items-center gap-2',
+                                        'mb-3 text-sm font-normal text-neutral-400 flex flex-row items-center gap-2',
                                     )}
                                 >
                                     <FaClock /> 31 Des 2023, 9AM - 12PM
